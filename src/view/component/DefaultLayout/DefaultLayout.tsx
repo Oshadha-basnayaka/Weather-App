@@ -4,13 +4,19 @@ import {Weekly} from "../weekly/Weekly";
 
 export function DefaultLayout() {
     return (
-        <div className={"bg-gradient-to-r from-cyan-500 to-blue-500 w-full  p-5 h-screen  justify-center flex"}>
+        <div className={"bg-gradient-to-r from-blue-950 to-blue-700 w-full  p-5 min-h-screen justify-center flex flex-col"}>
+            <Search/>
 
-            <div className={"  border rounded-3xl bg-gradient-to-r w-full from-white to-blue-500 flex flex-col h-screen "}>
-                <Search/>
-                <Current/>
 
-                <div className={"border rounded-3xl bg-gradient-to-r w-full from-white to-blue-500 flex flex-col mt-5 p-5"}>
+            <div className={" rounded-3xl bg-gradient-to-r w-full from-blue-600 to-blue-800 gap-5 flex flex-col min-h-full text-white lg:flex-row lg:gap-5 lg:p-5"}>
+
+
+
+                <div className={"border-2 rounded-3xl bg-gradient-to-r w-full from-blue-600 to-blue-800 flex   p-5  text-white lg:w-[50%]"}>
+                    <Current/>
+                </div>
+
+                <div className={"  border-2 rounded-3xl bg-gradient-to-r w-full from-blue-600 to-blue-800 flex   p-5  text-white lg:w-[50%]"}>
                     <Weekly/>
                 </div>
             </div>

@@ -4,10 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        italianno: ['Protest Revolution', 'sans-serif'],
+        'Pacifico': ['Pacifico", cursive'],
       },
     },
   },
   plugins: [],
-}
-
+};
