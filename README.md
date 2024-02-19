@@ -1,3 +1,4 @@
-![wheatherapp](https://github.com/Oshadha-basnayaka/Weather-App/assets/118722700/82381bd2-300c-48ca-b5e2-ac8e4db3ef2a)
+![wheatherapp](https://github.com/Oshadha-basnayaka/Weather-App/assets/118722700/843f59cd-bf7d-4eaa-9c73-99f8810a78e3)
+
 
 This is react Wheather App 
