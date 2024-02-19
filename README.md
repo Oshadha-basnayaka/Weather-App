@@ -1,3 +1,5 @@
+![wheatherapp](https://github.com/Oshadha-basnayaka/Weather-App/assets/118722700/82381bd2-300c-48ca-b5e2-ac8e4db3ef2a)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
