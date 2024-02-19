@@ -28,7 +28,7 @@ export function Current() {
 
     return (
 
-       <div className={"p-5 w-full flex flex-col"}>
+       <div className={"p-5 w-full flex flex-col gap-7"}>
           <div>
               <h1 className={"flex items-center  flex-col text-xl font-bold pb-10"}>CURRENT WEATHER</h1>
           </div>
