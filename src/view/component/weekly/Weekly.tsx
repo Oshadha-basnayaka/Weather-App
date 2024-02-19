@@ -4,9 +4,9 @@ import wind from '../../../assetes/icon/white/icons8-wind-50 (1).png';
 import temperature from '../../../assetes/icon/white/icons8-temperature-50.png';
 export function Weekly() {
     return (
-        <div className={"w-full flex flex-col  gap-8  justify-center items-center "}>
+        <div className={"w-full flex flex-col  gap-2  justify-center items-center "}>
 
-            <div className="flex w-full  md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
+            <div className="flex w-full  md:flex-row lg:flex-row xl:flex-row 2xl:flex-row border rounded-2xl p-2">
 
                 <div className="gap-3 flex-1 flex flex-col items-start text-center md:text-left lg:text-left xl:text-left 2xl:text-left">
                     <h1 className="text-sm font-bold ">Sunday</h1>
@@ -42,7 +42,7 @@ export function Weekly() {
 
             </div>
 
-            <div className="flex w-full  md:flex-row lg:flex-row xl:flex-row 2xl:flex-row ">
+            <div className="flex w-full  md:flex-row lg:flex-row xl:flex-row 2xl:flex-row border rounded-2xl p-2">
 
                 <div className="gap-3 flex-1 flex flex-col items-start text-center md:text-left lg:text-left xl:text-left 2xl:text-left">
                     <h1 className="text-sm font-bold ">Monday</h1>
@@ -78,7 +78,7 @@ export function Weekly() {
 
             </div>
 
-            <div className="flex w-full  md:flex-row lg:flex-row xl:flex-row 2xl:flex-row ">
+            <div className="flex w-full  md:flex-row lg:flex-row xl:flex-row 2xl:flex-row border rounded-2xl p-2">
 
                 <div className="gap-3 flex-1 flex flex-col items-start text-center md:text-left lg:text-left xl:text-left 2xl:text-left">
                     <h1 className="text-sm font-bold ">Thuesday</h1>
@@ -114,7 +114,7 @@ export function Weekly() {
 
             </div>
 
-            <div className="flex w-full  md:flex-row lg:flex-row xl:flex-row 2xl:flex-row ">
+            <div className="flex w-full  md:flex-row lg:flex-row xl:flex-row 2xl:flex-row border rounded-2xl p-2">
 
                 <div className="gap-3 flex-1 flex flex-col items-start text-center md:text-left lg:text-left xl:text-left 2xl:text-left">
                     <h1 className="text-sm font-bold ">Wednessday</h1>
@@ -150,7 +150,7 @@ export function Weekly() {
 
             </div>
 
-            <div className="flex w-full  md:flex-row lg:flex-row xl:flex-row 2xl:flex-row ">
+            <div className="flex w-full  md:flex-row lg:flex-row xl:flex-row 2xl:flex-row border rounded-2xl p-2">
 
                 <div className="gap-3 flex-1 flex flex-col items-start text-center md:text-left lg:text-left xl:text-left 2xl:text-left">
                     <h1 className="text-sm font-bold ">Friday</h1>
@@ -186,7 +186,7 @@ export function Weekly() {
 
             </div>
 
-            <div className="flex w-full  md:flex-row lg:flex-row xl:flex-row 2xl:flex-row ">
+            <div className="flex w-full  md:flex-row lg:flex-row xl:flex-row 2xl:flex-row border rounded-2xl p-2 ">
 
                 <div className="gap-3 flex-1 flex flex-col items-start text-center md:text-left lg:text-left xl:text-left 2xl:text-left">
                     <h1 className="text-sm font-bold ">Saterday</h1>
