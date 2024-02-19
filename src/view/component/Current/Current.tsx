@@ -27,69 +27,58 @@ export function Current() {
     }, []);
 
     return (
-       <div className={"p-5 w-full"}>
-           {/*<div>*/}
-           {/*    <h1>Weather Data</h1>*/}
-           {/*    <ul>*/}
-           {/*        {weatherData.list? && weatherData.list.map((item, index) => (*/}
-           {/*            <li key={index}>*/}
-           {/*                /!* Render data from each item here *!/*/}
-           {/*                Date: {new Date(item.dt * 1000).toLocaleDateString()} - Temperature: {item.main.temp}*/}
-           {/*            </li>*/}
-           {/*        ))}*/}
-           {/*    </ul>*/}
-           {/*</div>*/}
 
-
+       <div className={"p-5 w-full flex flex-col"}>
           <div>
-              <h1 className={"flex items-center justify-center flex-col text-2xl font-bold pb-10"}>CURRENT WEATHER</h1>
+              <h1 className={"flex items-center  flex-col text-xl font-bold pb-10"}>CURRENT WEATHER</h1>
           </div>
 
-           <div className={"flex  gap-5 justify-evenly pt-5 text-center "}>
-              <div className={"flex-1"}>
-                  <h1 className={"flex items-center justify-center flex-col "}>Colombo distric Lk </h1>
-                  <h1>to day 17 feb 2023</h1>
-              </div>
-
-               <div className={"flex-1"}>
-                   <h1>30~c</h1>
-                   <h1>Broken cloudes</h1>
+           <div className="flex gap-5 justify-evenly pt-5 text-center">
+               <div className="flex-1 flex flex-col justify-center items-center">
+                   <h1 className="text-lg font-medium">Colombo District, LK</h1>
+                   <h1 className="text-sm ">Today, 18 Feb 2023</h1>
                </div>
 
-               <div className={"flex-1 justify-center items-center flex"}>
-                   <img src={cloud} alt=""/>
+               <div className="flex-1 flex flex-col justify-center items-center">
+                   <h1 className="text-3xl font-bold">30°C</h1>
+                   <h1 className="text-lg">Broken Clouds</h1>
+               </div>
+
+               <div className="flex-1 flex justify-center items-center">
+                   <img src={cloud} alt="Cloud" className="h-16 w-16" />
                </div>
            </div>
+
 
 
 
            <div>
-               <h1 className={"flex items-center justify-center flex-col pt-20 text-2xl font-bold pb-5 "}>AIR CONDITIONS</h1>
+               <h1 className={"flex items-center justify-center flex-col pt-10 text-xl font-bold pb-5 "}>AIR CONDITIONS</h1>
            </div>
 
            <div className="flex gap-5 justify-evenly pt-5 text-center">
                <div className="flex-1 flex flex-col items-center">
-                   <img src={temperature} alt="Temperature" className="h-12 w-12 mb-2" />
-                   <h1 className="text-lg font-medium">Temperature</h1>
-                   <h1 className="text-lg">37°C</h1>
+                   <img src={temperature} alt="Temperature" className="w-[25px] h-[25px] mb-2 object-cover" />
+                   <h1 className="text-md font-medium ">Temperature</h1>
+                   <h1 className="text-md">37°C</h1>
                </div>
 
                <div className="flex-1 flex flex-col items-center">
-                   <img src={wind} alt="Wind" className="h-12 w-12 mb-2" />
-                   <h1 className="text-lg font-medium">Wind</h1>
-                   <h1 className="text-lg">1.84m/s</h1>
+                   <img src={wind} alt="Wind" className="w-[25px] h-[25px] mb-2 object-cover" />
+                   <h1 className="text-md font-medium">Wind</h1>
+                   <h1 className="text-md">1.84m/s</h1>
                </div>
 
                <div className="flex-1 flex flex-col items-center">
-                   <img src={cloud} alt="Cloud" className="h-12 w-12 mb-2" />
-                   <h1 className="text-lg font-medium">Cloud</h1>
-                   <h1 className="text-lg">73%</h1>
+                   <img src={cloud} alt="Cloud" className="w-[25px] h-[25px] mb-2 object-cover" />
+                   <h1 className="text-md font-medium">Cloud</h1>
+                   <h1 className="text-md">73%</h1>
                </div>
 
                <div className="flex-1 flex flex-col items-center">
-                   <img src={Humidity} alt="Humidity" className="h-12 w-12 mb-2" />
-                   <h1 className="text-lg font-medium">Humidity</h1>
-                   <h1 className="text-lg">86%</h1>
+                   <img src={Humidity} alt="Humidity" className="w-[25px] h-[25px] mb-2 object-cover" />
+                   <h1 className="text-md font-medium">Humidity</h1>
+                   <h1 className="text-md">86%</h1>
                </div>
            </div>
 
